@@ -1,0 +1,12 @@
+{
+  "name": "oespre-assistant",
+  "version": "1.0.0",
+  "description": "Proxy del asistente IA de OESPRE 2.0 (Claude Haiku 4.5) — sin dependencias, Node 16+",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
