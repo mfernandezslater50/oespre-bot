@@ -144,11 +144,3 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log(`[asistente] OESPRE Assistant escuchando en puerto ${PORT} (modelo: ${MODEL})`);
 });
-app.post('/chat', async (req, res) => {
-  const { message } = req.body;
-  
-  // Aquí responde leyendo knowledge-base.md
-  const respuesta = Recibí: ${message}. El bot está conectado y leyendo el manual.;
-  
-  res.json({ reply: respuesta });
-});
